@@ -37,6 +37,7 @@ p, h1,h3{
     background-color: rgb(20, 184, 213);
 }
 .homelink>button{
+    position: fixed;
     margin-left:6px;
     font-family: Verdana,Arial, Helvetica, sans-serif;
     border:0;
@@ -51,7 +52,8 @@ width:400px;
 margin:0 auto;}
 
 .recipepage{
-    margin: 0 80px;
+
+    margin: 35px 80px;
     background-color: aliceblue;
 }
 
