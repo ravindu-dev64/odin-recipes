@@ -4,38 +4,44 @@ body{
 }
 li{
     padding:4px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 h3{
     padding: 8px;
     background-color: lightgray;
 }
+
 p{margin:20px}
+
 p, h1,h3{
     font-family:'Trebuchet MS', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+.hometitle,
+.recipetitle{
+    display: block;
+    padding:8px;
+}
+
+
+
+/* index.html-home page */
 
 .homepage li{
     margin : 12px 80px ;
     font-size: 20px;
 }
-
 .homelink>button,
 .hometitle{
     color:white;
     background-color: rgb(0, 112, 131);
 }
 
-.hometitle,
-.recipetitle{
-    display: block;
-    padding:8px;
-}
 .hometitle>h1{margin-left: 80px;}
-.recipetitle{
-    margin:5px 0;
-    background-color: rgb(20, 184, 213);
-}
+
 .homelink>button{
     position: fixed;
     margin-left:6px;
@@ -44,8 +50,22 @@ p, h1,h3{
     padding:6px 12px;
     border-radius: 12px;
 }
-li{
-    font-family: Arial, Helvetica, sans-serif;
+.homeimg{
+width: fit-content;
+margin:0 auto;
+padding-left:-5px;
+}
+.homepage img{
+    display:inline-block;
+    margin:12px;
+}
+
+
+/* reipes */
+
+.recipetitle{
+    margin:5px 0;
+    background-color: rgb(20, 184, 213);
 }
 .recipepage img{display:block;
 width:400px;
@@ -57,19 +77,5 @@ margin:0 auto;}
     background-color: aliceblue;
 }
 
-.homeimg{
-width: fit-content;
-margin:0 auto;
-padding-left:-5px;
-}
 
-.homepage img{
-    display:inline-block;
-    margin:12px;
 
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
