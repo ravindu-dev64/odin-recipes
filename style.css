@@ -92,6 +92,11 @@ padding-left:-5px;
 
 /* reipes */
 
+.recipepage li{
+    padding-left: 20px;
+
+}
+
 .recipetitle{
     margin:5px 0;
     background-image: linear-gradient(to bottom right , #14b8d5, rgb(0, 80, 201));
