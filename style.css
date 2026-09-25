@@ -58,14 +58,18 @@ background-image: linear-gradient(to bottom right , #0093b8,#3a8a8d,  rgb(16, 30
     height: 200px;
 }
 .recipeList li{
+    border-top: 1px dotted #292727;
+    border-bottom: 1px dotted #292727;
+background-image: linear-gradient(to bottom, #415158, #bcf2ff, #415158);
+
     display: flex;
     align-items: center ;
     flex-wrap: nowrap;
     height: 50px;
-    margin : 0 80px ;
+    margin : 1px 80px ;
     font-size: 20px;
 }
-.recipeList li:hover{
+.recipeList li:hover{background-image: linear-gradient(to bottom, #7f97e7, #bcf2ff);
     font-size: 22px;
     flex-wrap: nowrap;
 }
